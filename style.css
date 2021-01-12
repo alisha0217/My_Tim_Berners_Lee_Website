@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    width: 100%;
+}
+
+
+#profilePic {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: darkcyan;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    background: linear-gradient(#addcc9 0%, #f7a8a6 100%);
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.beggining {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 27px;
+}
+
+
+
+.menu {
+    z-index: 10;
+    right: 30px;
+    top: 10px;
+    position: fixed;
+    cursor: pointer;
+    list-style: none;
+}
+
+.links {
+    float: left;
+    color: azure;
+    padding: 5px 9px 5px 9px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.links:hover {
+    background-color: cornflowerblue;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+
+#info {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.article:hover{
+    color:cornflowerblue;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
